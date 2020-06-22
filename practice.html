@@ -5,13 +5,22 @@
 <style>
 
 .container{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
+  display:grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows:  100px 100px 100px 100px  100px 100px 100px 100px 100px 100px 100px 100px;
+ 
   justify-content: center;
-  border: 2px solid yellow;
+  */border: 2px solid yellow;*/
   }
 
+  .box{
+        font-size: 25px;
+        text-align: center;
+        /* width: 250px; */
+        /* height: 150px; */
+        /*border: 1px solid red;*/
+    }
+     
 div.gallery {
   margin: 5px;
   /*border: 1px solid #ccc;*/
@@ -54,6 +63,44 @@ h1 {
 
 
 <body>
+  <div class="container">
+
+    <div class="box"  ><a href="pages/drinks.html">
+      <img src="images/drinks.jpeg" alt="drinks" width="100" height="100">
+    </a></div>
+
+    <div class="box"div class="box"><a href="pages/appitizers.html">
+      <img src="images/appitizaers.jpeg" alt="Appitizers" width="90" height="90">
+    </a></div>
+
+    <div class="box"  ><a href="pages/burgers.html">
+      <img src="images/burger.jpeg" alt="Burgers" width="90" height="90">
+    </a></div>
+
+    <div class="box"  >Drinks</div>
+    <div class="box"  >Appitizers</div>
+    <div class="box"  >Meals</div>
+
+    <div class="box"  ><a href="pages/sides.html">
+      <img src="images/sides.jpeg" alt="Sides" width="90" height="90">
+    </a></div>
+
+    <div class="box"  ><a href="pages/kidsMeals.html">
+      <img src="images/kidsMeals.jpeg" alt="Kids Meal" width="74" height="75">
+    </a></div>
+
+    <div class="box"  ><a href="pages/desserts.html">
+      <img src="images/desserts.jpeg" alt="Desserts" width="100" height="100">
+    </a></div>
+
+    <div class="box"  >Sides</div>
+    <div class="box"  >Kids Meals</div>
+    <div class="box"  >Desserts</div>
+
+
+</div>
+
+<!--
 <div class=container>
   <div class="gallery">
     <a href="pages/drinks.html">
@@ -83,6 +130,8 @@ h1 {
     <div class="desc">DESSERTS</div>
   </div>
 </div>
+
+-->
 </body>
 
 
