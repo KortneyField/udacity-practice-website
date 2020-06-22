@@ -3,6 +3,15 @@
     
 <head>
 <style>
+
+.container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid yellow;
+  }
+
 div.gallery {
   margin: 5px;
   /*border: 1px solid #ccc;*/
@@ -30,7 +39,8 @@ h1 {
   text-align: center;
 }
 
-/*
+
+/* 
 * {
     border: 1px solid black !important;
   }
@@ -44,35 +54,35 @@ h1 {
 
 
 <body>
+<div class=container>
+  <div class="gallery">
+    <a href="pages/drinks.html">
+      <img src="images/drinks.jpeg" alt="drinks" width="600" height="400">
+    </a>
+    <div class="desc">DRINKS</div>
+  </div>
 
-<div class="gallery">
-  <a href="pages/drinks.html">
-    <img src="images/drinks.jpeg" alt="drinks" width="600" height="400">
-  </a>
-  <div class="desc">DRINKS</div>
+  <div class="gallery">
+    <a href="pages/burgers.html">
+      <img src="images/burger.jpeg" alt="Burgers" width="600" height="400">
+    </a>
+    <div class="desc">BURGERS</div>
+  </div>
+
+  <div class="gallery">
+    <a href="pages/sides.html">
+      <img src="images/sides.jpeg" alt="Sides" width="600" height="400">
+    </a>
+    <div class="desc">SIDES</div>
+  </div>
+
+  <div class="gallery">
+    <a href="pages/desserts.html">
+      <img src="images/desserts.jpeg" alt="Desserts" width="600" height="400">
+    </a>
+    <div class="desc">DESSERTS</div>
+  </div>
 </div>
-
-<div class="gallery">
-  <a href="pages/burgers.html">
-    <img src="images/burger.jpeg" alt="Burgers" width="600" height="400">
-  </a>
-  <div class="desc">BURGERS</div>
-</div>
-
-<div class="gallery">
-  <a href="pages/sides.html">
-    <img src="images/sides.jpeg" alt="Sides" width="600" height="400">
-  </a>
-  <div class="desc">SIDES</div>
-</div>
-
-<div class="gallery">
-  <a href="pages/desserts.html">
-    <img src="images/desserts.jpeg" alt="Desserts" width="600" height="400">
-  </a>
-  <div class="desc">DESSERTS</div>
-</div>
-
 </body>
 
 
